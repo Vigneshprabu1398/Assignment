@@ -1,30 +1,32 @@
 #main{
     display: flex;
-    gap:20% ;
+    gap:10% ;
     margin-top: 30px;
     margin-left: 270px;
     height:550px;
     width: 800px;
-    border: solid red 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 #left{
-    height: 100%;
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 90%;
     width: 40%;
     border: solid blue 1px;
 }
 #right{
-    height: 100%;
+    margin-top: 3%;
+    height: 90%;
     width: 40%;
     border: solid blue 1px;
 }
-#circle{
-    height: 70px;
-    width: 70px;
+#shoot{
+    height: 65px;
+    width: 65px;
     margin-bottom: 20px;
-    margin-left: 38%;
     border-radius: 50%;
     border: solid black 1px;
 }
-#circle:hover{
+#shoot:hover{
     cursor: pointer;
 }

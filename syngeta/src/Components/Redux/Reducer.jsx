@@ -62,8 +62,9 @@ export const Circle_Reducer = (state = initialstate, { type, payload }) => {
 export const Color_Reducer = (state = initialstate, { type, payload }) => {
   switch (type) {
       case Allaction.SET_COLOR:
-         return { ...state,colors:payload,
-        };
+        if(state.colors.length<5){
+           return { ...state,colors:state.colors.concat(payload),};
+        }
         
       default:
       return state;
