@@ -15,12 +15,14 @@
     width: 40%;
     border: solid blue 1px;
 }
+
 #right{
     margin-top: 3%;
     height: 90%;
     width: 40%;
     border: solid blue 1px;
 }
+
 #shoot{
     height: 65px;
     width: 65px;
@@ -28,6 +30,7 @@
     border-radius: 50%;
     border: solid black 1px;
 }
+
 #shoot:hover{
     cursor: pointer;
 }

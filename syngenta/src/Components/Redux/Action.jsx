@@ -5,13 +5,11 @@ export const SetCircle = (ele)=>{
         type : Allaction.SET_CIRCLE,
         payload : ele
     };
-    
 }
 
 export const SetColor = (payload)=>{
   return {
       type : Allaction.SET_COLOR,
       payload : payload
-  };
-  
+  };  
 }

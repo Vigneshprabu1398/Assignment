@@ -39,8 +39,7 @@ export const Circle_Reducer = (state = initialstate, { type, payload }) => {
          return {
           ...state,
           circle:Ncircle,
-        };
-        
+        };        
       default:
       return state;
   }
