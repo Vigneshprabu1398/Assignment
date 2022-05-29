@@ -7,6 +7,7 @@ export const SetCircle = (ele)=>{
     };
     
 }
+
 export const SetColor = (payload)=>{
   return {
       type : Allaction.SET_COLOR,

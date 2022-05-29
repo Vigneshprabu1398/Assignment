@@ -5,10 +5,8 @@ import { SetCircle } from "../Redux/Action";
 export const Circle = () =>{
     const circle = useSelector((state)=>state.Circles.circle);
     const color = useSelector((state)=>state.Colors.colors);
-    console.log(color[0])  
 
     const dispatch = useDispatch();
-
     
    const handleChange =(e)=>{
        dispatch(SetCircle(e.id))

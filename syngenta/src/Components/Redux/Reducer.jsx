@@ -4,33 +4,20 @@ const initialstate = {
   circle :[
     {A:true,
      id:1,
-     cvalue:true,
-     color:undefined},
+     cvalue:true,},
     {B:true,
      id:2,
-     cvalue:true,
-     color:undefined},
+     cvalue:true,},
     {C:true,
      id:3,
-     cvalue:true,
-     color:undefined},
+     cvalue:true,},
     {D:true,
      id:4,
-     cvalue:true,
-     color:undefined},
+     cvalue:true,},
     {E:true,
      id:5,
-     cvalue:true,
-     color:undefined}
-    ],
-        
-}
-
-for(var i=0; i<5; i++){
-  let temp=initialstate.circle[i].color
-  if(temp===undefined){
-    temp="#"+Math.floor(Math.random() * 0x1000000).toString(16);
-  };
+     cvalue:true,}
+    ],       
 }
 
 export const Circle_Reducer = (state = initialstate, { type, payload }) => {
