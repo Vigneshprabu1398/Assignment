@@ -21,14 +21,15 @@ const initialstate = {
 }
 
 export const Circle_Reducer = (state = initialstate, { type, payload }) => {
+  console.log(typeof payload);
   switch (type) {
       case Allaction.SET_CIRCLE:
         const Ncircle =state.circle.filter((ele) => {
-          if (ele.id === payload && ele.cvalue === true) {
+          if (ele.id == payload && ele.cvalue === true) {
             ele.cvalue=false;
             return true;
           }
-          if (ele.id === payload && ele.cvalue === false) {
+          if (ele.id == payload && ele.cvalue === false) {
             ele.cvalue= true;
             return true;
           }
