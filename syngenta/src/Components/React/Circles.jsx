@@ -28,7 +28,7 @@ export const Circle = () =>{
             <div >
                 <input type="text" 
                        placeholder="Enter a number to shoot"
-                       onChange={handleInput}></input>
+                       onChange={handleInput}></input><br></br>
                 <button  onClick={()=>{handleChange1()}}>Shoot</button>
                 <div id="main">
                 <div id="left">
